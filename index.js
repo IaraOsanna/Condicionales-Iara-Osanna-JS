@@ -35,3 +35,8 @@ if ((NotaExamen > 8) && (NotaTP >= 6) || (Asistencia == True)) {
 let LunesMiercolesViernes = "Basura Humeda"
 let MartesJuevesDomingo = "Basura Seca"
 let Sabado = "No se saca basura"
+if ((LunesMiercolesViernes == "Basura Humeda") && (MartesJuevesDomingo == "Basura Seca")  && (Sabado == "No se saca basura")){
+    alert("Los Lunes, Miercoles y Viernes sacar basura humeda, los Martes, Jueves y Domingos sacar basura seca y los Sabados no se saca")
+} else {
+    
+}
